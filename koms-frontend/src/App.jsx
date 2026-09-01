@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <h1>Checking API Health...</h1>
-      <p>Open your browser console (F12) to see the result.</p>
+      <p>wow</p>
     </>
   );
 }
