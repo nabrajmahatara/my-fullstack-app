@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
 "scripts": {
-  "backend": "npm run dev --prefix koms-backend",
-  "frontend": "npm run dev --prefix koms-frontend",
+  "koms-backend": "npm run dev --prefix koms-backend",
+  "koms-frontend": "npm run dev --prefix koms-frontend",
   "dev": "concurrently \"npm run koms-backend\" \"npm run koms-frontend\""
 },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nabrajmahatara/my-fullstack-app.git"
