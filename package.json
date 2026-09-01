@@ -1,0 +1,26 @@
+{
+  "name": "my-fullstack-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "backend": "npm run dev --prefix koms-backend",
+  "frontend": "npm run dev --prefix koms-frontend",
+  "dev": "concurrently \"npm run koms-backend\" \"npm run koms-frontend\""
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabrajmahatara/my-fullstack-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nabrajmahatara/my-fullstack-app/issues"
+  },
+  "homepage": "https://github.com/nabrajmahatara/my-fullstack-app#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
