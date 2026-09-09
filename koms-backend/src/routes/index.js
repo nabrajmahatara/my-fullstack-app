@@ -1,5 +1,6 @@
 import { Router } from 'express';
-import authRoutes from '../modules/auth/auth.routes.js';
+import authRoutes from '../modules/auth/auth.route.js';
+
 import workspaceRoutes from '../modules/workspace/workspace.routes.js';
 import boardRoutes from '../modules/board/board.routes.js';
 import listRoutes from '../modules/list/list.routes.js';
